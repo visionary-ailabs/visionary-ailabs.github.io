@@ -1,12 +1,11 @@
-
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1e1e1e; /* Darker background */
+    color: #e0e0e0; /* Light text for contrast */
 }
 
 .container {
@@ -17,11 +16,11 @@ body {
 
 /* Header */
 header {
-    background: #1a1a1a;
-    color: #fff;
+    background: #121212; /* Darker header */
+    color: #ffffff;
     padding-top: 20px;
     min-height: 70px;
-    border-bottom: #4CAF50 3px solid;
+    border-bottom: #388E3C 3px solid; /* Darker green accent */
 }
 
 header h1 {
@@ -49,19 +48,19 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
 }
 
 header nav ul li a:hover {
-    color: #4CAF50;
+    color: #388E3C; /* Darker green accent */
 }
 
 /* Hero Section */
 .hero {
     background: url('ai-background.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #ffffff;
     padding: 150px 0;
     text-align: center;
 }
@@ -78,8 +77,8 @@ header nav ul li a:hover {
 }
 
 .cta-button {
-    background: #4CAF50;
-    color: #fff;
+    background: #388E3C; /* Darker green accent */
+    color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -87,19 +86,20 @@ header nav ul li a:hover {
 }
 
 .cta-button:hover {
-    background: #45a049;
+    background: #2E7D32; /* Even darker green on hover */
 }
 
 /* About Section */
 .about {
     padding: 50px 0;
-    background: #fff;
+    background: #2c2c2c; /* Darker section background */
 }
 
 .about h2 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: 700;
+    color: #ffffff;
 }
 
 .about p {
@@ -107,18 +107,20 @@ header nav ul li a:hover {
     font-size: 1.1em;
     max-width: 800px;
     margin: auto;
+    color: #e0e0e0;
 }
 
 /* Services Section */
 .services {
     padding: 50px 0;
-    background: #f4f4f4;
+    background: #1e1e1e; /* Darker section background */
 }
 
 .services h2 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: 700;
+    color: #ffffff;
 }
 
 .service-list {
@@ -128,11 +130,11 @@ header nav ul li a:hover {
 }
 
 .service-item {
-    background: #fff;
+    background: #2c2c2c; /* Darker card background */
     padding: 20px;
     margin-bottom: 20px;
     width: 23%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
     border-radius: 5px;
     text-align: center;
 }
@@ -141,28 +143,31 @@ header nav ul li a:hover {
     font-size: 1.2em;
     margin-bottom: 10px;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .service-item p {
     font-size: 0.9em;
-    color: #666;
+    color: #b0b0b0; /* Muted text color */
 }
 
 /* Contact Section */
 .contact {
     padding: 50px 0;
-    background: #fff;
+    background: #2c2c2c; /* Darker section background */
 }
 
 .contact h2 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: 700;
+    color: #ffffff;
 }
 
 .contact p {
     text-align: center;
     margin-bottom: 20px;
+    color: #e0e0e0;
 }
 
 .contact form {
@@ -178,6 +183,7 @@ header nav ul li a:hover {
     display: block;
     margin-bottom: 5px;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .contact .form-group input,
@@ -185,16 +191,18 @@ header nav ul li a:hover {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #444; /* Darker border */
     border-radius: 5px;
+    background-color: #1e1e1e; /* Darker input background */
+    color: #e0e0e0; /* Light text for contrast */
 }
 
 .contact button {
     display: block;
     width: 100%;
     padding: 10px;
-    background: #4CAF50;
-    color: #fff;
+    background: #388E3C; /* Darker green accent */
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -202,13 +210,13 @@ header nav ul li a:hover {
 }
 
 .contact button:hover {
-    background: #45a049;
+    background: #2E7D32; /* Even darker green on hover */
 }
 
 /* Footer */
 footer {
-    background: #1a1a1a;
-    color: #fff;
+    background: #121212; /* Darker footer */
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
     margin-top: 50px;
@@ -217,4 +225,3 @@ footer {
 footer p {
     margin: 0;
 }
-
