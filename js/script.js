@@ -10,7 +10,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     };
 
     // Replace with your Google Apps Script URL
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0rIc6IUoSEb_cgoxx8EP--8Bc199bI98OWkaKmB4kFBVcxpsaVMglpMdQhBNDBa4g/exec';
+    https://script.google.com/macros/s/AKfycbzOfI8xEXTrdUQPOFndXm6ud0tYQpTnzu6StEu0UHI/dev
+    const scriptURL = 'hhttps://script.google.com/macros/s/AKfycbzOfI8xEXTrdUQPOFndXm6ud0tYQpTnzu6StEu0UHI/dev/exec';
 
     // Send data to Google Apps Script
     fetch(scriptURL, {
